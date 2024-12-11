@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PrincipalController">
+   <children>
+      <Pane layoutX="131.0" layoutY="78.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: eee5da;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane prefHeight="400.0" prefWidth="600.0">
+               <children>
+                  <Pane layoutY="285.0" prefHeight="125.0" prefWidth="600.0" style="-fx-background-color: eee5da;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                     <children>
+                        <Button fx:id="btnEditarColecao" alignment="CENTER" layoutX="52.0" layoutY="5.0" mnemonicParsing="false" onAction="#btnEditarColecaoOnAction" prefHeight="40.0" prefWidth="150.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: d44f52;" styleClass="Botao" text="Editar Coleção">
+                           <font>
+                              <Font name="Comic Sans MS Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnInserirColecao" alignment="CENTER" layoutX="226.0" layoutY="5.0" mnemonicParsing="false" onAction="#btnInserirColecaoOnAction" prefHeight="40.0" prefWidth="150.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: d44f52;" styleClass="Botao" text="Inserir Coleção">
+                           <font>
+                              <Font name="Comic Sans MS Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnVisualizarColecao" alignment="CENTER" layoutX="399.0" layoutY="5.0" mnemonicParsing="false" onAction="#btnVisualizarColecaoOnAction" prefHeight="40.0" prefWidth="150.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: d44f52;" styleClass="Botao" text="Visualizar Coleção">
+                           <font>
+                              <Font name="Comic Sans MS Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <AnchorPane layoutY="111.0" prefHeight="14.0" prefWidth="600.0" />
+                        <Pane layoutY="120.0" prefHeight="5.0" prefWidth="600.0" style="-fx-background-color: A2C2A1;" />
+                     </children>
+                  </Pane>
+                  <Label layoutX="95.0" layoutY="82.0" prefHeight="135.0" prefWidth="434.0" text="Bem Vindo!" textFill="#3f4baf">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="80.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="207.0" layoutY="217.0" prefHeight="28.0" prefWidth="212.0" text="O que deseja fazer?" textFill="#3f4baf">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <AnchorPane layoutX="7.0" layoutY="6.0" prefHeight="200.0" prefWidth="550.0" AnchorPane.bottomAnchor="395.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                  <Pane layoutY="5.0" prefHeight="200.0" prefWidth="600.0" style="-fx-background-color: A2C2A1;" AnchorPane.bottomAnchor="395.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,12 @@
+controller\PrincipalController.class
+controller\InserirColecaoController.class
+model\dao\ConnFactory.class
+start\App.class
+controller\EditarController.class
+model\dao\DaoFactory.class
+controller\TabelaViewController$1.class
+module-info.class
+controller\TabelaViewController.class
+model\dao\InterfaceDao.class
+model\dao\AlbumDao.class
+model\Album.class
