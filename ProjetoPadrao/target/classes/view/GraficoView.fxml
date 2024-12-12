@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GraficoViewController">
+    <TextField fx:id="searchField" layoutX="26.0" layoutY="8.0" promptText="Digite o nome da fruta (ex: Maçã)" />
+    <Button layoutX="184.0" layoutY="8.0" onAction="#onPesquisar" text="Pesquisar" />
+    <PieChart fx:id="pieChart" layoutX="88.0" layoutY="33.0" prefHeight="361.0" prefWidth="425.0" />
+   <Button fx:id="btnVoltar" layoutX="534.0" layoutY="8.0" mnemonicParsing="false" onAction="#btnVoltarOnAction" text="voltar" />
+</AnchorPane>

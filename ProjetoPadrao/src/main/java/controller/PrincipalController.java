@@ -27,7 +27,7 @@ public class PrincipalController implements Initializable {
     @FXML
     private Button btnVisualizarColecao;
     @FXML
-    private Button btnVerTable; //retirar
+    private Button btnGrafico; //retirar
 
     /**
      * Initializes the controller class.
@@ -53,8 +53,8 @@ public class PrincipalController implements Initializable {
     }
 
     @FXML
-    private void btnVerTable(ActionEvent event) throws IOException { //retirar
-      
+    private void btnGraficoOnAction(ActionEvent event) throws IOException { //retirar
+        App.setRoot("GraficoView");
     }
     
 }
