@@ -5,9 +5,9 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GraficoViewController">
-    <TextField fx:id="searchField" layoutX="26.0" layoutY="8.0" promptText="Digite o nome da fruta (ex: Maçã)" />
-    <Button layoutX="184.0" layoutY="8.0" onAction="#onPesquisar" text="Pesquisar" />
-    <PieChart fx:id="pieChart" layoutX="88.0" layoutY="33.0" prefHeight="361.0" prefWidth="425.0" />
-   <Button fx:id="btnVoltar" layoutX="534.0" layoutY="8.0" mnemonicParsing="false" onAction="#btnVoltarOnAction" text="voltar" />
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: e8e8e8;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GraficoViewController">
+    <TextField fx:id="searchField" layoutX="26.0" layoutY="8.0" promptText="NOME DO ARTISTA" style="-fx-background-color: #d9d9d9; -fx-border-radius: 10px; -fx-border-color: #50a3d4; -fx-background-radius: 10px;" />
+    <Button layoutX="196.0" layoutY="8.0" onAction="#onPesquisar" style="-fx-background-color: e8e8e8; -fx-border-color: #50a3d4;" text="PESQUISAR" />
+    <PieChart fx:id="pieChart" layoutX="88.0" layoutY="35.0" prefHeight="361.0" prefWidth="425.0" />
+   <Button fx:id="btnVoltar" layoutX="525.0" layoutY="8.0" mnemonicParsing="false" onAction="#btnVoltarOnAction" prefHeight="27.0" prefWidth="61.0" style="-fx-background-color: #50a3d4;" text="VOLTAR" textFill="WHITE" />
 </AnchorPane>

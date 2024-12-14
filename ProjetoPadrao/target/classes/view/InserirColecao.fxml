@@ -5,25 +5,27 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.InserirColecaoController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: e8e8e8;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.InserirColecaoController">
    <children>
-      <TextField fx:id="txtTitulo" layoutX="70.0" layoutY="58.0" onAction="#txtTituloOnAction" />
-      <TextField fx:id="txtEstilo" layoutX="68.0" layoutY="181.0" onAction="#txtEstiloOnAction" />
-      <TextField fx:id="txtAnoDeLancamento" layoutX="68.0" layoutY="248.0" onAction="#txtAnoDeLancamentoOnAction" />
-      <TextField fx:id="txtPaisDeLancamento" layoutX="335.0" layoutY="58.0" onAction="#txtPaisDeLancamentoOnAction" />
-      <TextField fx:id="txtGravadora" layoutX="335.0" layoutY="119.0" onAction="#txtGravadoraOnAction" />
-      <TextField fx:id="txtSelo" layoutX="335.0" layoutY="181.0" onAction="#txtSeloOnAction" />
-      <Label layoutX="70.0" layoutY="34.0" text="Titulo" />
-      <Label layoutX="68.0" layoutY="160.0" text="estilo" />
-      <Label layoutX="68.0" layoutY="221.0" text="ano de lancamento" />
-      <Label layoutX="335.0" layoutY="34.0" text="pais de lancamento" />
-      <Label layoutX="334.0" layoutY="95.0" text="gravadora" />
-      <Label layoutX="337.0" layoutY="160.0" text="selo" />
-      <Button fx:id="btnSalvar" layoutX="337.0" layoutY="288.0" mnemonicParsing="false" onAction="#btnSalvarOnAction" text="salvar" />
-      <Button fx:id="btnVoltar" layoutX="58.0" layoutY="348.0" mnemonicParsing="false" onAction="#btnVoltarOnAction" text="Voltar" />
-      <TextField fx:id="txtNomeArtista" layoutX="68.0" layoutY="119.0" onAction="#txtNomeArtistaOnAction" />
-      <Label layoutX="71.0" layoutY="95.0" text="Nome Artista" />
-      <TextField fx:id="lblCaminhoImagem" layoutX="335.0" layoutY="248.0" />
-      <Button fx:id="btnInserirFoto" layoutX="335.0" layoutY="217.0" mnemonicParsing="false" onAction="#btnInserirFotoOnAction" text="Inserir Arquivo Foto" />
+      <TextField fx:id="txtTitulo" layoutX="106.0" layoutY="47.0" onAction="#txtTituloOnAction" style="-fx-background-color: #d9d9d9; -fx-background-radius: 10PX; -fx-border-color: #50a3d4; -fx-border-radius: 10px;" />
+      <TextField fx:id="txtEstilo" layoutX="106.0" layoutY="128.0" onAction="#txtEstiloOnAction" prefHeight="17.0" prefWidth="149.0" style="-fx-background-color: #d9d9d9; -fx-background-radius: 10PX; -fx-border-radius: 10px; -fx-border-color: #50a3d4;" />
+      <TextField fx:id="txtAnoDeLancamento" layoutX="427.0" layoutY="47.0" onAction="#txtAnoDeLancamentoOnAction" prefHeight="6.0" prefWidth="149.0" style="-fx-background-color: #d9d9d9; -fx-background-radius: 10PX; -fx-border-radius: 10px; -fx-border-color: #50a3d4;" />
+      <TextField fx:id="txtPaisDeLancamento" layoutX="427.0" layoutY="84.0" onAction="#txtPaisDeLancamentoOnAction" style="-fx-background-color: #d9d9d9; -fx-background-radius: 10PX; -fx-border-radius: 10px; -fx-border-color: #50a3d4;" />
+      <TextField fx:id="txtGravadora" layoutX="106.0" layoutY="167.0" onAction="#txtGravadoraOnAction" style="-fx-background-color: #d9d9d9; -fx-background-radius: 10PX; -fx-border-radius: 10px; -fx-border-color: #50a3d4;" />
+      <TextField fx:id="txtSelo" layoutX="106.0" layoutY="213.0" onAction="#txtSeloOnAction" style="-fx-background-color: #d9d9d9; -fx-background-radius: 10PX; -fx-border-radius: 10px; -fx-border-color: #50a3d4;" />
+      <Label layoutX="37.0" layoutY="51.0" text="TITULO:" />
+      <Label layoutX="38.0" layoutY="132.0" text="ESTILO:" />
+      <Label layoutX="281.0" layoutY="51.0" text="ANO DE LANÇAMENTO:" />
+      <Label layoutX="282.0" layoutY="88.0" text="PAÍS DE LANÇAMENTO:" />
+      <Label layoutX="21.0" layoutY="171.0" text="GRAVADORA:" />
+      <Label layoutX="43.0" layoutY="217.0" text="SELO:" />
+      <Button fx:id="btnSalvar" layoutX="488.0" layoutY="348.0" mnemonicParsing="false" onAction="#btnSalvarOnAction" prefHeight="25.0" prefWidth="81.0" style="-fx-background-color: e8e8e8; -fx-border-color: #50a3d4;" text="SALVAR" textFill="#4fc3f7" />
+      <Button fx:id="btnVoltar" layoutX="45.0" layoutY="348.0" mnemonicParsing="false" onAction="#btnVoltarOnAction" prefHeight="25.0" prefWidth="74.0" style="-fx-background-color: #4FC3F7;" text="VOLTAR" textFill="WHITE" />
+      <TextField fx:id="txtNomeArtista" layoutX="106.0" layoutY="84.0" onAction="#txtNomeArtistaOnAction" style="-fx-background-color: #d9d9d9; -fx-background-radius: 10PX; -fx-border-radius: 10px; -fx-border-color: #50a3d4;" />
+      <Label layoutX="34.0" layoutY="88.0" text="ARTISTA:" />
+      <TextField fx:id="lblCaminhoImagem" layoutX="281.0" layoutY="213.0" style="-fx-background-color: #d9d9d9; -fx-background-radius: 10PX; -fx-border-radius: 10px; -fx-border-color: #50a3d4;" />
+      <Button fx:id="btnInserirFoto" layoutX="281.0" layoutY="167.0" mnemonicParsing="false" onAction="#btnInserirFotoOnAction" style="-fx-border-color: #50a3d4; -fx-background-color: e8e8e8;" text="INSERIR FOTO" textFill="#50a3d4" />
+      <AnchorPane layoutY="312.0" prefHeight="3.0" prefWidth="600.0" style="-fx-background-color: #50a3d4;" />
+      <AnchorPane prefHeight="3.0" prefWidth="600.0" style="-fx-background-color: #50a3d4;" />
    </children>
 </AnchorPane>

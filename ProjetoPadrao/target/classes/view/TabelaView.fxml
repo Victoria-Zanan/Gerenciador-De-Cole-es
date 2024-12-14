@@ -6,23 +6,23 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TabelaViewController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: e8e8e8;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TabelaViewController">
    <children>
       <TableView fx:id="TblAlbum" layoutY="70.0" prefHeight="337.0" prefWidth="600.0">
         <columns>
-          <TableColumn fx:id="tImagem" prefWidth="75.0" text="Album" />
-          <TableColumn fx:id="colun_Titulo" prefWidth="75.0" text="Titulo" />
-            <TableColumn fx:id="colun_nomeArtista" prefWidth="75.0" text="Artista" />
-            <TableColumn fx:id="colun_Gravadora" prefWidth="75.0" text="Gravadora" />
-            <TableColumn fx:id="colun_Estilo" prefWidth="75.0" text="Genero" />
-            <TableColumn fx:id="colun_Ano" prefWidth="75.0" text="Ano" />
-            <TableColumn fx:id="colun_PaisLancamento" prefWidth="75.0" text="Pais" />
-            <TableColumn fx:id="colun_selo" prefWidth="75.0" text="Selo" />
+          <TableColumn fx:id="tImagem" prefWidth="75.0" text="ALBUM" />
+          <TableColumn fx:id="colun_Titulo" prefWidth="75.0" text="TITULO" />
+            <TableColumn fx:id="colun_nomeArtista" prefWidth="75.0" text="ARTISTA" />
+            <TableColumn fx:id="colun_Gravadora" prefWidth="87.0" text="GRAVADORA" />
+            <TableColumn fx:id="colun_Estilo" prefWidth="63.0" text="PAÍS" />
+            <TableColumn fx:id="colun_Ano" prefWidth="75.0" text="ANO" />
+            <TableColumn fx:id="colun_PaisLancamento" prefWidth="75.0" text="GENERO" />
+            <TableColumn fx:id="colun_selo" prefWidth="75.0" text="SELO" />
         </columns>
       </TableView>
-      <Button fx:id="btnVoltar" layoutX="26.0" layoutY="24.0" mnemonicParsing="false" onAction="#btnVoltarOnAction" prefHeight="25.0" prefWidth="56.0" text="Voltar" />
-      <TextField fx:id="txtFiltro" layoutX="98.0" layoutY="24.0" onAction="#txtFiltroOnAction" prefHeight="25.0" prefWidth="227.0" />
-      <Button fx:id="btnFiltrar" layoutX="341.0" layoutY="24.0" mnemonicParsing="false" onAction="#btnFiltrarOnAction" prefHeight="25.0" prefWidth="56.0" text="Filtrar" />
-      <Button fx:id="btnLimpar" layoutX="406.0" layoutY="24.0" mnemonicParsing="false" onAction="#btnLimparOnAction" prefHeight="25.0" prefWidth="56.0" text="Limpar" />
+      <Button fx:id="btnVoltar" layoutX="26.0" layoutY="24.0" mnemonicParsing="false" onAction="#btnVoltarOnAction" prefHeight="25.0" prefWidth="56.0" style="-fx-background-color: e8e8e8; -fx-border-color: #50a3d4;" text="Voltar" textFill="#50a3d4" />
+      <TextField fx:id="txtFiltro" layoutX="98.0" layoutY="24.0" onAction="#txtFiltroOnAction" prefHeight="25.0" prefWidth="227.0" promptText="TITULO..." style="-fx-background-color: #d9d9d9; -fx-background-radius: 10PX; -fx-border-radius: 10PX; -fx-border-color: #50a3d4;" />
+      <Button fx:id="btnFiltrar" layoutX="341.0" layoutY="24.0" mnemonicParsing="false" onAction="#btnFiltrarOnAction" prefHeight="25.0" prefWidth="97.0" style="-fx-background-color: #4FC3F7;" text="PROCURAR" textFill="WHITE" />
+      <Button fx:id="btnLimpar" layoutX="454.0" layoutY="25.0" mnemonicParsing="false" onAction="#btnLimparOnAction" prefHeight="25.0" prefWidth="65.0" style="-fx-border-color: #50a3d4; -fx-background-color: e8e8e8;" text="Limpar" textFill="#50a3d4" />
    </children>
 </AnchorPane>

@@ -83,6 +83,9 @@ public class EditarController implements Initializable {
     private TextField txtFiltrar;
     @FXML
     private Button btnVoltar;
+    @FXML
+    private Button btnLimpar;
+    
 
     /**
      * Initializes the controller class.
@@ -163,6 +166,12 @@ public class EditarController implements Initializable {
     @FXML
     private void txtFiltrar(ActionEvent event) { //filtrar
        carregarContatos(txtFiltrar.getText());
+    }
+
+    @FXML
+    private void btnLimparOnAction(ActionEvent event) {
+        carregarContatos("");
+        txtFiltrar.clear();
     }
 
     

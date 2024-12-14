@@ -85,9 +85,10 @@ public class TabelaViewController implements Initializable {
     colun_nomeArtista.setCellValueFactory(new PropertyValueFactory<>("nome_Artista")); // Certifique-se que o atributo da classe seja "nomeArtista"
     colun_Gravadora.setCellValueFactory(new PropertyValueFactory<>("Gravadora")); // Certifique-se que o atributo da classe seja "gravadora"
     colun_Ano.setCellValueFactory(new PropertyValueFactory<>("Ano"));
-    colun_PaisLancamento.setCellValueFactory(new PropertyValueFactory<>("Pais_Lancamento"));
+   colun_Estilo.setCellValueFactory(new PropertyValueFactory<>("Estilo"));
     colun_selo.setCellValueFactory(new PropertyValueFactory<>("Selo"));
-    colun_Estilo.setCellValueFactory(new PropertyValueFactory<>("Estilo"));
+     colun_PaisLancamento.setCellValueFactory(new PropertyValueFactory<>("Pais_Lancamento"));
+    
     
     tImagem.setCellValueFactory(data -> new SimpleStringProperty(data.getValue().getCaminhoImg()));
     
